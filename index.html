@@ -1,48 +1,14 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
-    <meta charset="utf-8">
-    <link rel="dns-prefetch" href="//h5.sinaimg.cn">
-    <link rel="icon" sizes="any" mask href="//h5.sinaimg.cn/upload/2015/05/15/28/WeiboLogoCh.svg" color="black">
-    <link rel="apple-touch-icon" href="https://h5.sinaimg.cn/upload/2017/03/16/16/icon.png">
-    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-    <meta name="format-detection" content="telephone=no">
-    <title>微博</title>
-        <link rel="stylesheet" href="//h5.sinaimg.cn/marvel/v1.3.0/css/lib/base.css">
-    <link rel="stylesheet" href="//h5.sinaimg.cn/marvel/v1.3.0/css/card/cards.css">
-    <script>!function(e){var a,i=navigator.userAgent.toLowerCase(),n=document.documentElement,t=parseInt(n.clientWidth);if(/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)||i.indexOf("like mac os x")>0){var s=/os [\d._]*/gi,o=i.match(s);a=(o+"").replace(/[^0-9|_.]/gi,"").replace(/_/gi,".")}var r=a+"";"undefined"!=r&&r.length>0&&(a=parseInt(r),a>=8&&(375==t||667==t||320==t||568==t||480==t)?n.className="iosx2":(a>=8&&414==t||736==t)&&(n.className="iosx3")),/(Android)/i.test(navigator.userAgent)&&(n.className="android")}(window);</script>
-        <style>html, body, #app {height: 100%;}[v-cloak] {display: none;}</style>
-    <link href="//h5.sinaimg.cn/m/v8/css/app.9cb3a25d.css" rel="stylesheet">
-    </head>
+</head>
 <body>
-    <div id="app" class="m-container-max" v-cloak>
-        <router-view></router-view>
-        <mv-modal></mv-modal>
-    </div>
-
 	<div id="weibo" class="panel">
         <ul class="panel_head"><span>test-新浪微博</span></ul>
         <ul class="panel_body">
             <iframe id="weibo" style="width:800px; height:8000px;" frameborder="0" scrolling="no" src="http://v.t.sina.com.cn/widget/widget_blog.php?uid=1646155084"></iframe>
         </ul>
     </div>
-
-    <script>
-        var config = {
-            env: 'prod',
-            st: 'd3e672',
-            login: [][0],
-            uid: '',
-            pageConfig: [{"type":"uid","value":"1646155084"}][0] || {},
-            wm: '',
-            version: 'v1.10.8',
-            url: location.href.split('#')[0]
-        };
-        var $render_data = [null][0] || {};
-    </script>
-    <script type="text/javascript">!function(e){function n(r){if(t[r])return t[r].exports;var o=t[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,n),o.l=!0,o.exports}var r=window.webpackJsonp;window.webpackJsonp=function(t,c,f){for(var a,d,i,u=0,s=[];u<t.length;u++)d=t[u],o[d]&&s.push(o[d][0]),o[d]=0;for(a in c)Object.prototype.hasOwnProperty.call(c,a)&&(e[a]=c[a]);for(r&&r(t,c,f);s.length;)s.shift()();if(f)for(u=0;u<f.length;u++)i=n(n.s=f[u]);return i};var t={},o={38:0};n.e=function(e){function r(){a.onerror=a.onload=null,clearTimeout(d);var n=o[e];0!==n&&(n&&n[1](new Error("Loading chunk "+e+" failed.")),o[e]=void 0)}var t=o[e];if(0===t)return new Promise(function(e){e()});if(t)return t[2];var c=new Promise(function(n,r){t=o[e]=[n,r]});t[2]=c;var f=document.getElementsByTagName("head")[0],a=document.createElement("script");a.type="text/javascript",a.charset="utf-8",a.async=!0,a.timeout=12e4,n.nc&&a.setAttribute("nonce",n.nc),a.src=n.p+"js/"+e+"."+{0:"c25982d1",1:"05d64875",2:"4c8b344d",3:"e0fe4913",4:"7792939f",5:"d064b520",6:"2f4d9e64",7:"78526e7c",8:"db98915d",9:"1a8d7ffd",10:"45409904",11:"390f4e20",12:"ef3ef885",13:"e6380c43",14:"2462f318",15:"6a5b9761",16:"3d0c96d3",17:"6c75c5b4",18:"0cc8c7c3",19:"e968f117",20:"d37cf377",21:"0102924b",22:"24f40108",23:"e7a4feb3",24:"41d047b0",25:"a5d3de99",26:"710cab19",27:"c66dae0f",28:"2d24f39e",29:"1996f030",30:"d1c8d43d",31:"e53feb34",32:"56d48c1b",33:"e3302670",34:"6ef9415e",35:"f4327626",36:"bf036a08",37:"05e5fa8c"}[e]+".js";var d=setTimeout(r,12e4);return a.onerror=a.onload=r,f.appendChild(a),c},n.m=e,n.c=t,n.d=function(e,r,t){n.o(e,r)||Object.defineProperty(e,r,{configurable:!1,enumerable:!0,get:t})},n.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(r,"a",r),r},n.o=function(e,n){return Object.prototype.hasOwnProperty.call(e,n)},n.p="//h5.sinaimg.cn/m/v8/",n.oe=function(e){throw console.error(e),e}}([]);</script>
-    <script type="text/javascript" src="//h5.sinaimg.cn/m/v8/js/vendor.2462f318.js"></script>
-    <script type="text/javascript" src="//h5.sinaimg.cn/m/v8/js/app.6a5b9761.js"></script>
 </body>
 
 </html>
